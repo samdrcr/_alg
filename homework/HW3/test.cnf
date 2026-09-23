@@ -1,0 +1,6 @@
+c A test DIMACS CNF problem
+c Formula: (x1 v ~x2) ^ (~x1 v x2 v x3) ^ (~x3)
+p cnf 3 3
+1 -2 0
+-1 2 3 0
+-3 0
